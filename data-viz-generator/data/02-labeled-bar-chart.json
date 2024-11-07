@@ -1,0 +1,33 @@
+{
+  "type": "bar",
+  "data": [
+    {
+      "label": "Monday",
+      "value": 120
+    },
+    {
+      "label": "Tuesday",
+      "value": 85
+    },
+    {
+      "label": "Wednesday",
+      "value": 93
+    },
+    {
+      "label": "Thursday",
+      "value": 134
+    },
+    {
+      "label": "Friday",
+      "value": 76
+    },
+    {
+      "label": "Saturday",
+      "value": 110
+    },
+    {
+      "label": "Sunday",
+      "value": 95
+    }
+  ]
+}

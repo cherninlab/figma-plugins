@@ -1,0 +1,105 @@
+.container {
+  padding: 20px;
+  color: 'black';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5em;
+}
+
+.title {
+  font-size: 19px;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 24px;
+  white-space: nowrap;
+  font-weight: 600;
+  background-color: var(--figma-color-bg-brand);
+  color: var(--figma-color-text-onbrand);
+  border: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--figma-color-bg-brand-hover);
+}
+
+.dropzone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 24px;
+  white-space: nowrap;
+  font-weight: 600;
+  border: 2px dashed var(--figma-color-border);
+  user-select: none;
+  cursor: pointer;
+}
+
+.chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid var(--figma-color-border);
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--figma-color-text-paragraph);
+  background-color: var(--figma-color-bg-secondary);
+}
+
+.select {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid var(--figma-color-border);
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--figma-color-text-paragraph);
+  background-color: var(--figma-color-bg-secondary);
+}
+
+.link {
+  color: var(--figma-color-text-brand);
+}

@@ -1,0 +1,25 @@
+{
+  "type": "pie",
+  "data": [
+    {
+      "label": "Product A",
+      "value": 35
+    },
+    {
+      "label": "Product B",
+      "value": 25
+    },
+    {
+      "label": "Product C",
+      "value": 20
+    },
+    {
+      "label": "Product D",
+      "value": 15
+    },
+    {
+      "label": "Product E",
+      "value": 5
+    }
+  ]
+}
